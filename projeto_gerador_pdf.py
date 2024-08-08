@@ -21,7 +21,7 @@ ano = data.year
 pdf = FPDF()
 pdf.add_page()
 pdf.set_font("Arial", "", 20)
-pdf.image("dados/rec.jpg", x=0, y=0)
+pdf.image("rec.jpg", x=0, y=0)
 
 # Posicionando valores na tela
 pdf.text(162, 45, valor_msg.replace(".", ","))
